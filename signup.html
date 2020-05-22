@@ -1,0 +1,257 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heruka-Deploy</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/2e7a8febb4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Materialize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="main-header-inner">
+      <nav class="transparent">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Heruka-Deploy</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="index.html" class="active-link">Home</a></li>
+              <li><a href="solution.html">Solution</a></li>
+              <li><a href="signup.html">Sign Up</a></li>
+              <li>
+                <a
+                  href="#model"
+                  data-target="modal"
+                  class="btn btn-md white-text purple modal-trigger"
+                  >LOGIN</a
+                >
+                <!-- Modal Structure -->
+                <div id="modal" class="modal black-text">
+                  <div class="modal-content">
+                    <h4>Account Login</h4>
+                    <p>Login To Access Account Dashboard</p>
+                    <form>
+                      <div class="input-field">
+                        <input type="email" name="email" id="email" />
+                        <label for="email">Email</label>
+                      </div>
+                      <div class="input-field">
+                        <input type="password" name="password" id="password" />
+                        <label for="password">Password</label>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close modal-action btn grey"
+                      >Reset Password</a
+                    >
+                    <a href="#!" class="modal-close modal-action btn purple"
+                      >Login</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="https://www.facebook.com"
+                  ><i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.tweeter.com"
+                  ><i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com"
+                  ><i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+            <ul class="sidenav" id="mobile-nav">
+              <h4 class="purple-text text-darken-4 center">Heruka-Deploy</h4>
+              <li><div class="divider"></div></li>
+              <li>
+                <a href="index.html"
+                  ><i class="fa fa-home grey-text text-darken-4"></i> Home</a
+                >
+              </li>
+              <li>
+                <a href="solution.html"
+                  ><i class="fa fa-cog grey-text text-darken-4"></i> Solution</a
+                >
+              </li>
+              <li>
+                <a href="signup.html"
+                  ><i class="fa fa-users grey-text text-darken-4"></i> Sign
+                  Up</a
+                >
+              </li>
+              <li>
+                <a href="#" class="btn purple darken-4">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="showcase">
+        <div class="row">
+          <div class="col s12 m10 offset-m1 center white-text">
+            <h5>Welcome to Heruka-Deploy</h5>
+            <h3>Create An Account</h3>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section Signup -->
+
+    <section class="section section-signup">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <h4>Get a free account</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              veniam id nisi? Saepe sint ipsum distinctio molestiae, recusandae
+              autem sequi?
+            </p>
+            <h4>Download the free software</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              veniam id nisi? Saepe sint ipsum distinctio molestiae, recusandae
+              autem sequi?
+            </p>
+            <h4>Push to the platform</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              veniam id nisi? Saepe sint ipsum distinctio molestiae, recusandae
+              autem sequi?
+            </p>
+          </div>
+          <div class="col s12 m6">
+            <div
+              class="card-panel grey lighten-4 grey-text text-darken-4 z-depth-0"
+            >
+              <form>
+                <div class="input-field">
+                  <input type="text" id="first_name" />
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field">
+                  <input type="text" id="last_name" />
+                  <label for="last_name">Last Name</label>
+                </div>
+                <div class="input-field">
+                  <input type="email" id="email" />
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field">
+                  <input type="password" id="password" />
+                  <label for="password">Password</label>
+                </div>
+                <div class="input-field">
+                  <input type="text" id="company" />
+                  <label for="company">Company</label>
+                </div>
+                <div class="input-field">
+                  <select id="role">
+                    <option value="" disabled selected>Select Role</option>
+                    <option value="professional">Professional Developer</option>
+                    <option value="hobbyist">Hobbyist</option>
+                    <option value="student">Student</option>
+                    <option value="manager">Manager</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <label for="role">Role</label>
+                </div>
+                <input
+                  type="submit"
+                  value="Signup"
+                  class="btn btn-large purple btn-extend"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="page-footer deep-purple lighten-1">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">About</h5>
+            <p class="grey-text text-lighten-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              sint eaque ipsam distinctio laborum nam quasi dolorem deserunt
+              voluptatum id!
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li>
+                <a class="grey-text text-lighten-3" href="home.html">Home</a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="solution.html"
+                  >Solution</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="signup.html"
+                  >Sign Up</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright deep-purple darken-1">
+        <div class="container">
+          @abhishekk8210 | Heruka-Deploy &copy; 2020
+          <a class="grey-text text-lighten-4 right" href="#!"
+            >Terms & Conditions</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- JQUERY -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.0.js"
+    integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+    crossorigin="anonymous"
+  ></script>
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".sidenav").sidenav();
+      $(".carousel.carousel-slider").carousel({
+        fullWidth: true,
+      });
+      $(".modal").modal();
+      $(".tabs").tabs();
+      $("select").formSelect();
+    });
+  </script>
+</html>

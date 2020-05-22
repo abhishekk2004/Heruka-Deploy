@@ -1,0 +1,381 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heruka-Deploy</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/2e7a8febb4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Materialize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="main-header">
+      <nav class="transparent">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Heruka-Deploy</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="index.html" class="active-link">Home</a></li>
+              <li><a href="solution.html">Solution</a></li>
+              <li><a href="signup.html">Sign Up</a></li>
+              <li>
+                <a
+                  href="#model"
+                  data-target="modal"
+                  class="btn btn-md white-text purple modal-trigger"
+                  >LOGIN</a
+                >
+                <!-- Modal Structure -->
+                <div id="modal" class="modal black-text">
+                  <div class="modal-content">
+                    <h4>Account Login</h4>
+                    <p>Login To Access Account Dashboard</p>
+                    <form>
+                      <div class="input-field">
+                        <input type="email" name="email" id="email" />
+                        <label for="email">Email</label>
+                      </div>
+                      <div class="input-field">
+                        <input type="password" name="password" id="password" />
+                        <label for="password">Password</label>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close modal-action btn grey"
+                      >Reset Password</a
+                    >
+                    <a href="#!" class="modal-close modal-action btn purple"
+                      >Login</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="https://www.facebook.com"
+                  ><i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.tweeter.com"
+                  ><i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com"
+                  ><i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+            <ul class="sidenav" id="mobile-nav">
+              <h4 class="purple-text text-darken-4 center">Heruka-Deploy</h4>
+              <li><div class="divider"></div></li>
+              <li>
+                <a href="index.html"
+                  ><i class="fa fa-home grey-text text-darken-4"></i> Home</a
+                >
+              </li>
+              <li>
+                <a href="solution.html"
+                  ><i class="fa fa-cog grey-text text-darken-4"></i> Solution</a
+                >
+              </li>
+              <li>
+                <a href="signup.html"
+                  ><i class="fa fa-users grey-text text-darken-4"></i> Sign
+                  Up</a
+                >
+              </li>
+              <li>
+                <a href="#" class="btn purple darken-4">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="showcase">
+        <div class="row">
+          <div class="col s12 m10 offset-m1 center white-text">
+            <h5>Welcome to Heruka-Deploy</h5>
+            <h3>Build For The Future</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+              repellat accusamus nihil aut! Iste maxime, dolores nesciunt
+              voluptatibus obcaecati sed!
+            </p>
+            <br /><br />
+            <a
+              href="#"
+              style="font-weight: bold;"
+              class="btn btn-large white purple-text text-darken-3"
+              >Learn More</a
+            >
+            <a
+              href="#"
+              style="font-weight: bold;"
+              class="btn btn-large white-text purple darken-3"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section icon -->
+    <section class="section section-icon white grey-text text-darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col m4 s12 center">
+            <div class="card-panel">
+              <i class="fa fa-user deep-purple-text text-darken-2 fa-3x"></i>
+              <h5>Free Account</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                nemo necessitatibus veritatis, ab nam voluptatum sequi totam
+              </p>
+            </div>
+          </div>
+          <div class="col m4 s12 center">
+            <div class="card-panel">
+              <i
+                class="fa fa-database deep-purple-text text-darken-2 fa-3x"
+              ></i>
+              <h5>NoSQL Databases</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                nemo necessitatibus veritatis, ab nam voluptatum sequi totam
+              </p>
+            </div>
+          </div>
+          <div class="col m4 s12 center">
+            <div class="card-panel">
+              <i class="fa fa-bolt deep-purple-text text-darken-2 fa-3x"></i>
+              <h5>Free Account</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                nemo necessitatibus veritatis, ab nam voluptatum sequi totam
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section About -->
+    <section class="section section-about grey lighten-3">
+      <div class="container">
+        <div class="row">
+          <div class="col m6 s12">
+            <h4><span class="deep-purple-text"> About </span>Us</h4>
+            <p class="flow-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+              beatae vero dolorum similique incidunt, dolorem asperiores omnis
+              voluptate iste nobis consequuntur
+            </p>
+          </div>
+          <div class="col m6 s12">
+            <img src="./img/tech.jpg" alt="" class="circle responsive-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Devloper -->
+    <section class="section section-developer">
+      <div class="primary-overlay valign-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 center">
+              <h4 class="center white-text">For Developers, Of Developers</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Language -->
+
+    <section class="section section-language grey lighten-3">
+      <div class="container">
+        <div class="row">
+          <h4 class="center">
+            Work With
+            <span class="deep-purple-text text-darken-1">Any Languages</span>
+          </h4>
+        </div>
+        <div class="row">
+          <div class="col s2">
+            <img class="responsive-img" src="./img/python-logo.png" alt="" />
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" src="./img/ruby-logo.png" alt="" />
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" src="./img/php-logo.png" alt="" />
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" src="./img/node-logo.png" alt="" />
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" src="./img/c-sharp-logo.png" alt="" />
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" src="./img/java-logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Podcast -->
+
+    <section class="section section-podcast">
+      <div class="primary-overlay valign-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m8">
+              <h5 class="white-text">
+                Listen To The Heruka-Deploy Podcast
+              </h5>
+              <p class="white-text">Every Tuesday On 5pm EST</p>
+            </div>
+            <div class="col s12 m4">
+              <a href="#" class="btn purple white-text"
+                ><i class="fa fa-podcast"></i> Listen</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Carousel -->
+    <section class="section section-carousel grey lighten-3">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center">
+            <div class="carousel carousel-slider">
+              <div class="carousel-item" href="#one">
+                <h2>Testinomial 1</h2>
+                <p class="flow-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
+                  error quibusdam officiis quaerat, voluptatum est accusantium
+                  officia sapiente numquam accusamus quae temporibus. Blanditiis
+                  sed repellat voluptas quibusdam? Deleniti, velit quo?
+                  <br />
+                  <em>- John Doe From Microsystems</em>
+                </p>
+                <div class="carousel-fixed-item">
+                  <a href="" class="btn grey">Read More</a>
+                </div>
+              </div>
+              <div class="carousel-item" href="#two">
+                <h2>Testinomial 2</h2>
+                <p class="flow-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
+                  error quibusdam officiis quaerat, voluptatum est accusantium
+                  officia sapiente numquam accusamus quae temporibus. Blanditiis
+                  sed repellat voluptas quibusdam? Deleniti, velit quo?
+                  <br />
+                  <em>- Mike Smith From Edge INC</em>
+                </p>
+                <div class="carousel-fixed-item">
+                  <a href="" class="btn grey">Read More</a>
+                </div>
+              </div>
+              <div class="carousel-item" href="#three">
+                <h2>Testinomial 3</h2>
+                <p class="flow-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
+                  error quibusdam officiis quaerat, voluptatum est accusantium
+                  officia sapiente numquam accusamus quae temporibus. Blanditiis
+                  sed repellat voluptas quibusdam? Deleniti, velit quo?
+                  <br />
+                  <em>- Karen Williams From Techniquo</em>
+                </p>
+                <div class="carousel-fixed-item">
+                  <a href="" class="btn grey">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="page-footer deep-purple lighten-1">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">About</h5>
+            <p class="grey-text text-lighten-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              sint eaque ipsam distinctio laborum nam quasi dolorem deserunt
+              voluptatum id!
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li>
+                <a class="grey-text text-lighten-3" href="home.html">Home</a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="solution.html"
+                  >Solution</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="signup.html"
+                  >Sign Up</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright deep-purple darken-1">
+        <div class="container">
+          @abhishekk8210 | Heruka-Deploy &copy; 2020
+          <a class="grey-text text-lighten-4 right" href="#!"
+            >Terms & Conditions</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- JQUERY -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.0.js"
+    integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+    crossorigin="anonymous"
+  ></script>
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".sidenav").sidenav();
+      $(".carousel.carousel-slider").carousel({
+        fullWidth: true,
+      });
+      $(".modal").modal();
+    });
+  </script>
+</html>
